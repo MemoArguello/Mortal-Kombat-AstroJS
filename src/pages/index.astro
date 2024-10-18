@@ -4,12 +4,13 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Mortal Kombat Selector">
-	<main class="text-center size-full h-screen bg-center bg-cover bg-no-repeat" style="background-image: url(./img/background.jpg);">
-		<div class="absolute bottom-10 left-10 w-[560px]">
-			<img src="./img/mortal_kombat_title.png" alt="">
-		</div>
-		<div class="absolute top-10 right-10 w-32">
-			<img src="./img/mk_11_logo.png" alt="">
-		</div>
+	<main class="relative text-center w-full h-screen bg-center bg-cover bg-no-repeat" style="background-image: url(./img/background.jpg);">
+	  <div class="absolute bottom-10 left-10 w-[90%] sm:w-[560px]">
+		<img src="./img/mortal_kombat_title.png" alt="">
+	  </div>
+	  <div class="absolute top-10 right-10 w-24 sm:w-32">
+		<img src="./img/mk_11_logo.png" alt="">
+	  </div>
 	</main>
-</Layout>
+  </Layout>
+  
