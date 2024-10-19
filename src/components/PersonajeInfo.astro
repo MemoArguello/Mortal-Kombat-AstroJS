@@ -1,0 +1,12 @@
+---
+interface Props{
+    nombrePersonaje:string
+    descripcionPersonaje:string
+}
+const {nombrePersonaje, descripcionPersonaje} = Astro.props;
+---
+
+<div class="absolute left-[20px] top-[120px]">
+    <h3 style="font-size: 8rem;" class=" text-white font-bold text-left">{nombrePersonaje}</h3>
+    <p class="text-white text-pretty">{descripcionPersonaje}</p>
+</div>
